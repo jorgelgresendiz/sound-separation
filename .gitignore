@@ -1,25 +1,17 @@
-# sound separation project
+# Ignore virtual environment
+venv310/
+Lib/
 
-venv*/
+# Ignore Python cache files
 __pycache__/
+*.pyc
 
+# Ignore OS/IDE stuff
 .DS_Store
-Thumbs.db
-*.swp
-.idea/
 .vscode/
 
-*.log
-*.sqlite3
-*.db
-*.tmp
-uploads/        # if you store temp uploads locally
-output/ 
+# Keep all code and assets
+!*.py
+!app/**
+!main.py
 
-.env
-.env.*
-*.key
-*.pem
-
-Pipfile.lock
-poetry.lock
