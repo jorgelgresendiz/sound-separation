@@ -1,0 +1,25 @@
+# sound separation project
+
+venv*/
+__pycache__/
+
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+*.log
+*.sqlite3
+*.db
+*.tmp
+uploads/        # if you store temp uploads locally
+output/ 
+
+.env
+.env.*
+*.key
+*.pem
+
+Pipfile.lock
+poetry.lock
