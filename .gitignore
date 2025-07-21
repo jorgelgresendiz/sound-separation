@@ -1,17 +1,24 @@
-# Ignore virtual environment
+# Python
 venv310/
-Lib/
-
-# Ignore Python cache files
 __pycache__/
 *.pyc
 
-# Ignore OS/IDE stuff
+# Node.js
+node_modules/
+dist/
+build/
+
+# OS/filesystem
 .DS_Store
+Thumbs.db
+
+# VS Code
 .vscode/
 
-# Keep all code and assets
-!*.py
-!app/**
-!main.py
+# Logs
+*.log
+
+# frontend
+frontend/node_modules/
+frontend/build/
 
